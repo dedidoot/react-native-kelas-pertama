@@ -1,13 +1,13 @@
-import React from "react";
+import React from 'react';
 import { View, 
-    Text } from "react-native";
+    Text } from 'react-native';
 
-class Main extends React.Component{
-    render(){
-        return(
+class Main extends React.Component {
+    render() {
+        return (
             <View>
-                <Text>This is Class Main</Text>
+                <Text>This is ClassWEDWE MainBro yeehcd</Text>
             </View>
         );
     }
-}export default Main;
+} export default Main;

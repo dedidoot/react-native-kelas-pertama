@@ -2,24 +2,29 @@
  * Sample React Native App
  * https://github.com/facebook/react-native
  * @flow
+ * 
+ * https://stackoverflow.com/questions/42718973/run-avd-emulator-without-android-studio
+ * 1. cek nama avd yang sudah dibuat, masuk ke sdk tool (C:\Users\nurah\AppData\Local\Android\sdk\tools\bin)
+ * 2. masuk ke tools , lalu perintahkah "emulator -avd <avdName> Nexus_5X_API_24" 
  */
 
 import React, { Component } from 'react';
+
 import {
   Platform, 
   StyleSheet,
   Text,
-  View
+  View 
 } from 'react-native';
 
-import MainBro from "./src/main";
+import MainBro from './src/main';
 
 
-export default class App extends Component<{}> {
+export default class App extends Component {
   render() {
     return (
       <View>
-        <MainBro/>
+        <MainBro />
       </View>
     );
   }
